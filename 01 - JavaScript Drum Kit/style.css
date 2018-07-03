@@ -1,12 +1,25 @@
 html {
-  font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://scontent-ort2-2.cdninstagram.com/vp/fd321c90ddd48898e42d7da58dc53585/5BDA0457/t51.2885-15/e35/19121196_1974023296160144_6525512982984654848_n.jpg) center;
   background-size: cover;
+  font-family: 'Electrolize', sans-serif;
 }
+
+.lambda {
+  text-align: center;
+  font-size: .5em;
+  margin: 0;
+  padding: .5em;
+  line-height: 1em;
+}
+
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+#main {
+  text-align: center;
+  cursor: pointer;
 }
 
 .keys {
@@ -18,33 +31,28 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .07s ease;
-  width: 10rem;
+  border: 1px solid gray;
+  display: cursor;
+  border-radius: .2rem;
+  transition: all .02s ease;
+  padding: .5em;
+  margin: .5em;
+  height: 5em;
+  width: 5em;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  transform: scale(1.2);
 }
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  color: #ffc600;
+  color: #333;
 }
